@@ -36,7 +36,7 @@ function formatDate(date, fromFormat, toFormat) {
   }
 
   if ('YY' in objFromDate && 'YYYY' in objToDate) {
-    if (objToDate['YY'] < 30) {
+    if (objToDate['YYYY'] < 30) {
       objToDate['YYYY'] = '20' + objToDate['YYYY'];
     } else {
       objToDate['YYYY'] = '19' + objToDate['YYYY'];
